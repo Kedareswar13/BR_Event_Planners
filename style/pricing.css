@@ -1,0 +1,92 @@
+body {
+  background: linear-gradient(135deg, #000000 0%, #070720 100%);
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.contain {
+  margin: 0px 2vw;
+  margin-top: 5vw;
+}
+
+.contain .row {
+  margin: 5vw 0px;
+  display: flex;
+}
+
+.contain .row .left {
+  width: 600px;
+  height: 337.50;
+  margin-right: 5vw;
+}
+
+.contain .row .right {
+  width: 600px;
+  height: 337.50;
+}
+
+.contain .content {
+  font-size: larger;
+  color: white;
+  line-height: 30px;
+  padding: 10px;
+}
+
+.contain .content h1 {
+  font-size: xx-large;
+}
+
+.contain .row .left .content {
+  padding-left: 3vw;
+}
+
+.contain img {
+  width: 600px;
+  height: 337%.50;
+  margin-top:5%;
+}
+.up img{
+  margin-top: -10%;
+}
+
+.services {
+  margin: 2vw;
+}
+
+.services .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.services .box {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  text-align: center;
+  color: black;
+}
+
+.services .box:hover {
+  box-shadow: 0 1px 20px rgb(255, 255, 255);
+}
+
+.services h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.services p {
+  font-size: 15px;
+}
+
+.services a {
+  color: black;
+}
+
